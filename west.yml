@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: anobli
+      url-base: https://github.com/anobli
+
+  projects:
+    - name: zephyr
+      remote: anobli
+      revision: abailon/beal
+      import:
+        path-prefix: third-party
